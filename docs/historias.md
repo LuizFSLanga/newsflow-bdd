@@ -16,7 +16,7 @@
 
 
 
-## US02 — Aprovar edição
+## US02 — Aprovar ou reprovar edição
 
 **Como** revisor(a),  
 **Quero** analisar e aprovar ou reprovar uma edição antes do envio,  
