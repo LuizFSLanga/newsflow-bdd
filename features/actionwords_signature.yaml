@@ -1,0 +1,317 @@
+---
+- name: 'a feature file named "p1" with content:'
+  uid: bd6d37db-4e83-45f1-abb8-8f597c29aed5
+  parameters:
+  - name: p1
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" imports the feature file "p2" to folder "p3"'
+  uid: a953556e-125f-4d1c-9fa1-eb73b8aebc52
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a folder "p2" under the folder "p3" with the scenarios:'
+  uid: 59efd19b-2e25-4842-af33-420a21be502d
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: two scenarios
+  uid: d4289e2b-76fa-4af6-b05f-4bf434bffc7d
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" renames globally the step "p2"response"p3" by "p4"response"p5"'
+  uid: 05de55ad-2334-4fff-a9b2-8c77eb1ade82
+  parameters:
+  - name: p1
+  - name: p2
+  - name: p3
+  - name: p4
+  - name: p5
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the scenarios using step "p1"response"p2" should be:'
+  uid: b48ab86f-68e7-4f9f-bd2c-68fff35ed4fc
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob creates a new step "p1"day"p2"
+  uid: '0934025d-704e-47f4-8216-916b9cbf6139'
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: changes the two scenarios as
+  uid: 0e2f68dd-54e0-42f9-9e07-d7bf0dfb3e95
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Bob has only the step "p1"day"p2" to maintain instead of these two
+  uid: e8bca1c4-9d12-44c7-8e87-429e565cc92f
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" adds a new scenario "p2" with the content'
+  uid: 5455f13a-1136-4a9f-a33d-9db645fb9163
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the datatable
+  uid: 0c5909f4-f089-4380-9f54-0349ab0d63f0
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" has a scenario "p2" to describe the same behaviour than these scenarios'
+  uid: d053ddfb-f265-443f-a67a-1e3d0f804dfa
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a folder "p1" with the scenarios:'
+  uid: c27509a4-4c94-4d9a-9fa7-5514d849e8bd
+  parameters:
+  - name: p1
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" download folder "p2"'
+  uid: 8d954b43-77ef-4926-aa91-626d345747e6
+  parameters:
+  - name: p1
+  - name: p2
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '"p1" should get a feature file "p2" with content:'
+  uid: 7496d236-6daf-4268-821b-20d08ae72901
+  parameters:
+  - name: p1
+  - name: p2
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: tento reprovar uma edição sem informar um comentário
+  uid: 55863347-8204-4ca5-9769-9cd9b3c20e60
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve impedir a reprovação
+  uid: 1fc3f0a1-49a0-43ab-9067-3417be1a96fe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: aprovo a edição
+  uid: 9cf7e3e9-53f9-44cf-a6b0-8f49450f5d6c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve marcar a edição como aprovada
+  uid: 4db7ca26-3864-4732-9560-ce60d3e16b83
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: sou o autor da edição
+  uid: d3924133-e2b2-4bb7-aa1d-a8b04a400815
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: tento aprovar sua própria edição
+  uid: cf80e337-db22-4217-8c75-96611c432674
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve impedir a aprovação
+  uid: 5542233a-9a93-4b75-94be-a671d2a387b7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: reprovo a edição informando um comentário
+  uid: 32fadfba-0658-4122-83aa-6e70b9d7a68e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve retornar a edição para rascunho
+  uid: 9c7f616d-8056-4c87-9da7-367f7250378d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: disponibilizar o comentário para o redator
+  uid: 18f6d285-e7d9-4737-98f0-9bb4ad746b51
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: sou revisor
+  uid: 7a7d2043-7f19-45be-b135-cf556b72ec62
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que existe uma edição aguardando aprovação
+  uid: 5a68350e-264a-40d5-91dd-f319aa05c874
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que existe uma edição em rascunho
+  uid: 428d08a5-5730-44a5-85a1-ab7f723f7393
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que existe uma edição aprovada
+  uid: 0b44f245-3bf4-45f5-baac-34cb912e73bd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: passam 30 segundos
+  uid: 81357992-f862-4fd3-b350-71af07bca928
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve salvar automaticamente a edição
+  uid: 149645bf-9406-447f-806d-b5935ae7d4ed
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: gerar uma nova versão numerada
+  uid: e37b7b4b-8c16-4b0d-ab01-030cc0be336e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que a edição possui 20 versões salvas
+  uid: 59b2b78a-b3aa-4590-88cf-eeaa95348f32
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: uma nova versão é salva
+  uid: 66e08b6c-00d4-467e-ae05-9a2ea63f6248
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve manter somente as 20 versões mais recentes
+  uid: 1999d3e4-b2ae-4865-a60f-a1360cce7ff3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que existem versões anteriores da edição
+  uid: aee54f4b-0fa1-461f-a10f-9e6a6e65e191
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o redator restaura uma versão
+  uid: ccb13829-6186-4ffd-99aa-9b33ab196ca4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve recuperar o conteúdo daquela versão
+  uid: aadc9402-f352-4e62-91ae-ec950e74155d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: sou o gestor
+  uid: c72e2856-49e4-4a33-8536-3af7b23dc90a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: agendo o envio para daqui a <minutos> minutos
+  uid: 031c9611-f70d-4ec8-8a53-8b0ccdb1aa5f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve apresentar a mensagem "p1"
+  uid: d695fefc-4387-410b-8e47-b5b74daefb50
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: sou gestor
+  uid: 377d26f5-aa0d-4002-9c26-0e6e16fb43c4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que o envio já foi reagendado <vezes> vezes
+  uid: 2cbaf521-e94b-4c78-8444-8775e579e6b1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: solicito um novo reagendamento
+  uid: c7d4e47d-9d7d-4dfa-9aa6-e04b1f3d1863
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que existe um envio agendado para daqui a 10 minutos
+  uid: 04df8cc0-9b25-4f22-bdc5-1c626e56758a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: solicito o cancelamento
+  uid: 50b658c3-fc0f-44c9-b7d2-c2995cbb2a4f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve cancelar o envio
+  uid: fa0ed5ff-7fa7-4192-bac8-b993ca092f9e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que um assinante já recebeu 2 newsletters na semana
+  uid: deaf501e-117c-4260-b328-4479ab58bd37
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: uma nova newsletter é destinada a esse assinante
+  uid: 3003a212-1bf0-482a-816b-e63d8b233863
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve colocar o envio na fila da semana seguinte
+  uid: 6114c7c6-2ec6-4497-809c-a6e7bf2ec00a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: sou assinante
+  uid: d0eb02aa-c7ec-4b96-80c9-ad4b2e2fce8e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: estou cadastrado
+  uid: 9f1341c1-bd09-4bb7-bb78-8e86497d23f5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: solicito o descadastro pelo link do e-mail
+  uid: 92d1c2e5-019c-448b-bf19-624036cf89b3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve interromper imediatamente os novos envios
+  uid: b243ee7b-8c2b-4cfe-b768-5bdfcbddf4c6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: enviar um e-mail de confirmação
+  uid: 422a24f4-4f0d-4e23-9def-de7f81d7dc31
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: solicito o retorno à lista de assinantes e confirmo a inscrição pelo link
+    recebido por e-mail
+  uid: 491fcedb-1e3c-4ed7-830b-5f567d74ae53
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve reativar a inscrição
+  uid: f723367a-ce99-4ee7-bcde-8452d6fb1668
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que o link de confirmação foi enviado há mais de 48 horas
+  uid: ee882106-d85a-42d5-a602-c775638d610f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: tento utilizá-lo
+  uid: 8a0f2fdd-c0dd-456e-ad50-55f128cce084
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve rejeitar a confirmação
+  uid: 62c46d77-93e6-4369-abc3-945522036a6e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que um e-mail não foi entregue
+  uid: c36e5306-4b22-4934-b676-29d9fec42c20
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: todas as 3 tentativas de entrega forem realizadas sem sucesso
+  uid: a0ef1d1d-8435-4659-be7a-0bb1ed69a5ca
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema deve marcar a entrega como falha definitiva
+  uid: 7ced3b91-a520-4151-a6b5-79c722afcb5e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que um endereço de e-mail apresentou hard bounce
+  uid: b8035f9e-be7d-4d49-b1e0-4f0a759e90ab
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema identifica a falha permanente
+  uid: 682f458f-e285-46ba-b486-5846c10df57e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o endereço deve ser removido da base de assinantes
+  uid: ad4a0261-8cd7-4695-b0a7-503e83e3486f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: que um endereço de e-mail apresentou soft bounce
+  uid: 2d144d92-43b8-4a20-a718-b51d5e2742d2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o sistema identifica a falha temporária
+  uid: da283da5-d603-43d1-b36c-c528b11e684e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: o endereço deve permanecer na base de assinantes
+  uid: 39900b79-86d0-4db3-88c6-d0f2ebf3da36
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
